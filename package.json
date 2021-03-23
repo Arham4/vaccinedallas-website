@@ -1,41 +1,41 @@
 {
-  "name": "ntn-boilerplate",
-  "version": "2.0.1",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <sven@svenparker.com> (https://svenparker.com)",
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/knogobert/ntn-boilerplate#readme"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@nuxt/content": "^1.13.1",
-    "nuxt": "^2.15.0"
-  },
-  "devDependencies": {
-    "@nuxtjs/color-mode": "^2.0.3",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/svg": "^0.1.12",
-    "@nuxtjs/tailwindcss": "^3.4.2",
-    "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "netlify-cli": "^3.8.3",
-    "nuxt-purgecss": "^1.0.0",
-    "path": "^0.12.7",
-    "postcss-easing-gradients": "^3.0.1",
-    "postcss-import": "^12.0.1",
-    "postcss-nesting": "^7.0.1",
-    "postcss-preset-env": "^6.7.0",
-    "prettier": "^1.16.4",
-    "tailwindcss": "^1.9.6",
-    "tailwindcss-dark-mode": "^1.1.7",
-    "vue-content-placeholders": "^0.2.1"
-  }
+    "name": "brook",
+    "version": "1.0.0",
+    "description": "Creative Multipurpose Vue Nuxt js Template",
+    "author": "uzzal",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate",
+        "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    },
+    "dependencies": {
+        "@nuxtjs/google-tag-manager": "^2.3.2",
+        "@nuxtjs/style-resources": "^1.0.0",
+        "bootstrap": "^4.5.0",
+        "bootstrap-vue": "^2.0.0",
+        "mixitup": "^3.3.1",
+        "nuxt": "^2.15.3",
+        "swiper": "^5.3.7",
+        "vue": "^2.6.11",
+        "vue-awesome-swiper": "^4.1.0",
+        "vue-fixed-header": "^3.2.14",
+        "vue-masonry": "^0.11.8",
+        "vue-masonry-css": "^1.0.3",
+        "vue-silentbox": "^2.2.0",
+        "vue2-google-maps": "^0.10.7",
+        "vuejs-paginate": "^2.1.0"
+    },
+    "devDependencies": {
+        "@nuxtjs/eslint-config": "^2.0.2",
+        "@nuxtjs/eslint-module": "^1.0.0",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^6.8.0",
+        "eslint-plugin-nuxt": ">=0.4.2",
+        "node-sass": "^4.14.1",
+        "sass-loader": "^8.0.2",
+        "webpack": "^4.43.0"
+    }
 }
