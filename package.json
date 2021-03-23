@@ -1,7 +1,7 @@
 {
-    "name": "brook",
+    "name": "vaccinedallas",
     "version": "1.0.0",
-    "description": "Creative Multipurpose Vue Nuxt js Template",
+    "description": "Drive-through COVID-19 vaccination provider",
     "author": "uzzal",
     "private": true,
     "scripts": {
