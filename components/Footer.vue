@@ -53,9 +53,9 @@
                   <p>
                     <a href="mailto:info@vaccinedallas.com">info@vaccinedallas.com</a>
                   </p>
-                  <p>
+                  <!-- <p>
                     <a href="tel:4695794620">(469) 579-4620</a>
-                  </p>
+                  </p> -->
                 </div>
               </div>
             </div>
