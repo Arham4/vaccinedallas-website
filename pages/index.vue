@@ -51,7 +51,7 @@
               <div class="brook-section-title-corona mb--50">
                 <h2>Are you eligible to <br> be administered the <br> <span class="text-black text-underline">COVID-19 vaccine</span>?</h2>
                 <p>
-                  As of Monday, March 29, 2021, <b>everyone age 16 and older is now eligible to receive a COVID-19 vaccine in Texas.</b>
+                  As of Monday, March 29, 2021, <b>all vaccines are authorized for people age 18 and older. The Pfizer vaccine is authorized for people 16 and older.</b>
                 </p>
               </div>
               <!-- Section Title End -->
@@ -65,7 +65,7 @@
                     Phase 2
                   </h3>
                   <p>
-                    Everyone age 16 and older is now eligible to receive a COVID-19 vaccine in Texas.
+                    All vaccines are authorized for people age 18 and older. The Pfizer vaccine is authorized for people 16 and older.
                   </p>
                 </div>
               </div>
