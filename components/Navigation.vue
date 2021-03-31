@@ -7,7 +7,7 @@
         </n-link>
       </li>
       <li class="lavel-1">
-        <n-link to="#">
+        <n-link to="/questionnaire">
           <span>Schedule/Book Vaccine</span>
         </n-link>
       </li>

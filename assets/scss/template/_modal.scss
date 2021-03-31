@@ -1,0 +1,15 @@
+.modal-backdrop {
+  z-index: 100000 !important;
+}
+
+.modal {
+  z-index: 100001 !important;
+}
+
+.disable-scroll {
+  /* disable scrollbar on both x and y axis */
+  overflow: hidden;
+
+  /* disable scroll */
+  position: fixed;
+}
