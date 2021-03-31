@@ -50,6 +50,12 @@ export default {
         }
       ]
     }
+  },
+
+  head () {
+    return {
+      title: 'VaccineDallas - Questionnaire'
+    }
   }
 }
 </script>
