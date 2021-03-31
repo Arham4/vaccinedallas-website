@@ -13,8 +13,8 @@
               </div>
               <div class="footer-inner">
                 <p>
-                  VaccineDallas is a drive-through COVID-19 vaccination provider. We provide Pfizer, Moderna, and
-                  Johnson & Johnson COVID vaccines.
+                  VaccineDallas is a drive-through COVID-19 vaccination provider. <!-- We provide Pfizer, Moderna, and
+                  Johnson & Johnson COVID vaccines. -->
                 </p>
               </div>
             </div>
@@ -49,7 +49,7 @@
               </h2>
               <div class="footer-address">
                 <div class="bk-hover">
-                  <p>7589 Preston Road, <br> Suite 500A, <br> Frisco, TX 75034</p>
+                  <p>7589 Preston Road, <br> Frisco, TX 75034</p>
                   <p>
                     <a href="mailto:info@vaccinedallas.com">info@vaccinedallas.com</a>
                   </p>
