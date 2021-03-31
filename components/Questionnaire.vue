@@ -1,11 +1,6 @@
 <template>
   <div class="p-3">
     <p>
-      For the safety of other customers and our employees, let's first get these familiar questions out of the way.
-      Please
-      answer this brief COVID-19 questionnaire for all persons being scheduled.
-    </p>
-    <p>
       All fields are required.
     </p>
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
@@ -56,7 +51,7 @@ export default {
           return
         }
       }
-      this.$router.push('/book')
+      this.$router.push('https://www.solvhealth.com/book-online/0r3GjA')
     },
     onReset (event) {
       event.preventDefault()
