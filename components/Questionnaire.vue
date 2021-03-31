@@ -51,7 +51,7 @@ export default {
           return
         }
       }
-      this.$router.push('https://www.solvhealth.com/book-online/0r3GjA')
+      location.href = 'https://www.solvhealth.com/book-online/0r3GjA'
     },
     onReset (event) {
       event.preventDefault()
