@@ -71,7 +71,7 @@
         <div class="row justify-content-end">
           <div class="col-md-6">
             <div class="copyright-right text-md-right text-center">
-              <p>&copy; 2021 <b>Brook</b> Made with <i class="fa fa-heart text-danger" /> by <a href="https://hasthemes.com/"><b>HasThemes</b></a></p>
+              <p>&copy; 2021 <b>VaccineDallas</b> Made with <i class="fa fa-heart text-danger" /> by <a href="https://hasthemes.com/"><b>HasThemes</b></a></p>
             </div>
             <div class="copyright-right text-md-right text-center">
               <p>
