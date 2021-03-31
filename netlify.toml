@@ -2,5 +2,11 @@
 command = "npm run generate"
 publish = "dist"
 
+[[redirects]]
+  from = "/book"
+  to = "https://www.solvhealth.com/book-online/0r3GjA"
+  status = 301
+  force = true
+
 # [[plugins]]
 # package = "netlify-plugin-subfont"
