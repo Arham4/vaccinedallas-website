@@ -10,8 +10,8 @@
         <div class="row">
           <div class="col-12">
             <div class="hero-content-5 left">
-              <h3>Protect yourself <br> & your family <br> from COVID-19</h3>
-              <p>We're administering the vaccine by appointment only <br> based on local eligibility guidelines.</p>
+              <h3>Drive-Thru <br> COVID-19 <br> Vaccines</h3>
+              <p>We're administering the vaccine by appointment only.</p>
               <b-button v-b-modal.questionnaire class="brook-btn bk-btn-theme btn-sd-size btn-rounded corona-btn space-between" @click="questionnaire = true">
                 Schedule appointment
               </b-button>
@@ -51,26 +51,10 @@
               <div class="brook-section-title-corona mb--50">
                 <h2>Are you eligible to <br> be administered the <br> <span class="text-black text-underline">COVID-19 vaccine</span>?</h2>
                 <p>
-                  Texas authorities have developed guidelines to prioritize
-                  <span class="text-black text-underline">vulnerable populations</span> in the first phase of the
-                  distribution of COVID-19 vaccines. The following are eligible now:
+                  As of Monday, March 29, 2021, <b>everyone age 16 and older is now eligible to receive a COVID-19 vaccine in Texas.</b>
                 </p>
               </div>
               <!-- Section Title End -->
-
-              <!-- Single Eligibility Start -->
-              <div class="single-eligibility mb--30">
-                <div class="eligibility-image">
-                  <img src="/img/eligibility/healthcare.png" alt="healthcare workers">
-                </div>
-                <div class="eligibility-content">
-                  <h3 class="title">
-                    Phase 1A
-                  </h3>
-                  <p>Front-line healthcare workers and residents at long-term care facilities</p>
-                </div>
-              </div>
-              <!-- Single Eligibility End -->
               <!-- Single Eligibility Start -->
               <div class="single-eligibility mb--30">
                 <div class="eligibility-image rotate-center">
@@ -78,26 +62,10 @@
                 </div>
                 <div class="eligibility-content">
                   <h3 class="title">
-                    Phase 1B
+                    Phase 2
                   </h3>
                   <p>
-                    People 65+ or people 16+ with a health condition that increases risk of severe COVID‑19 illness. A
-                    list of all health conditions can be found <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html">here</a>.
-                  </p>
-                </div>
-              </div>
-              <!-- Single Eligibility End -->
-              <!-- Single Eligibility Start -->
-              <div class="single-eligibility mb--30">
-                <div class="eligibility-image">
-                  <img src="/img/eligibility/middleage.png" alt="People 50 to 64 years of age">
-                </div>
-                <div class="eligibility-content">
-                  <h3 class="title">
-                    Phase 1C
-                  </h3>
-                  <p>
-                    People 50 to 64 years of age
+                    Everyone age 16 and older is now eligible to receive a COVID-19 vaccine in Texas.
                   </p>
                 </div>
               </div>
@@ -152,7 +120,7 @@ export default {
 
   head () {
     return {
-      title: 'VaccineDallas'
+      title: 'VaccineDallas - Drive-thru COVID-19 vaccine'
     }
   }
 }
