@@ -8,7 +8,7 @@
           </n-link>
         </li>
         <li class="menu-item-has-children">
-          <n-link to="#">
+          <n-link to="/questionnaire">
             Schedule/Book Vaccine
           </n-link>
         </li>
