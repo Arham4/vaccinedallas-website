@@ -51,7 +51,7 @@ export default {
           return
         }
       }
-      location.href = 'https://www.solvhealth.com/book-online/0r3GjA'
+      location.href = 'https://www.solvhealth.com/book-group/VLly3W'
     },
     onReset (event) {
       event.preventDefault()
