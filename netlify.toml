@@ -4,7 +4,7 @@ publish = "dist"
 
 [[redirects]]
   from = "/book"
-  to = "https://www.solvhealth.com/book-online/0r3GjA"
+  to = "https://www.solvhealth.com/book-group/VLly3W"
   status = 301
   force = true
 
