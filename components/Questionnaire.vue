@@ -1,9 +1,22 @@
 <template>
   <div class="p-3">
+    <!-- Start Location Selector Area -->
+    <b-modal
+      v-if="locationSelector === true"
+      id="locationSelector"
+      size="sm"
+      scrollable
+      title="Select a location"
+      hide-footer
+      body-class="p-2"
+    >
+      <LocationSelector />
+    </b-modal>
+    <!-- End Location Selector Area -->
     <p>
       All fields are required.
     </p>
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+    <b-form v-if="show" @submit="onSubmit" @reset="onReset">
       <div v-for="(question, index) in questions">
         <b-form-group :label="question">
           <b-form-radio v-model="chosen[index]" value="Yes" :name="question" required>
@@ -14,7 +27,7 @@
           </b-form-radio>
         </b-form-group>
       </div>
-      <b-button type="submit" variant="primary">
+      <b-button v-b-modal.locationSelector type="submit" variant="primary">
         Submit
       </b-button>
       <b-button type="reset" variant="danger">
@@ -26,6 +39,9 @@
 
 <script>
 export default {
+  components: {
+    LocationSelector: () => import('@/components/LocationSelector')
+  },
   data () {
     return {
       questions: {
@@ -38,7 +54,8 @@ export default {
         7: 'Did you have a known (diagnosed) allergy to a component of the vaccine or an immediate allergic reaction of any severity to a previous dose?'
       },
       chosen: {},
-      show: true
+      show: true,
+      locationSelector: false
     }
   },
   methods: {
@@ -51,7 +68,8 @@ export default {
           return
         }
       }
-      location.href = 'https://www.solvhealth.com/book-group/VLly3W'
+      // location.href = 'https://www.solvhealth.com/book-group/VLly3W'
+      this.locationSelector = true
     },
     onReset (event) {
       event.preventDefault()
